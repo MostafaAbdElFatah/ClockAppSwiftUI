@@ -11,6 +11,7 @@
 		0636E07824EE869B00958C3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0636E07724EE869B00958C3A /* ContentView.swift */; };
 		0636E07A24EE869E00958C3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0636E07924EE869E00958C3A /* Assets.xcassets */; };
 		0636E07D24EE869E00958C3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0636E07C24EE869E00958C3A /* Preview Assets.xcassets */; };
+		0672D22B24EE873200F627D3 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0672D22A24EE873200F627D3 /* ClockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0636E07924EE869E00958C3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0636E07C24EE869E00958C3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0636E07E24EE869E00958C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0672D22A24EE873200F627D3 /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				0636E07524EE869B00958C3A /* ClockAppApp.swift */,
 				0636E07724EE869B00958C3A /* ContentView.swift */,
+				0672D22A24EE873200F627D3 /* ClockView.swift */,
 				0636E07924EE869E00958C3A /* Assets.xcassets */,
 				0636E07E24EE869E00958C3A /* Info.plist */,
 				0636E07B24EE869E00958C3A /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0636E07824EE869B00958C3A /* ContentView.swift in Sources */,
+				0672D22B24EE873200F627D3 /* ClockView.swift in Sources */,
 				0636E07624EE869B00958C3A /* ClockAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

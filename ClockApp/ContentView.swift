@@ -9,8 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        GeometryReader{ geometry in
+            ZStack{
+                Color.black
+                    .edgesIgnoringSafeArea(.all)
+                HStack{
+                    ClockView()
+                } 
+                .padding(.all, 50)
+                .frame(width: geometry.size.width, height: geometry.size.width, alignment: .center)
+                
+            }.navigationBarTitle(Text("ClockView"), displayMode:.automatic).foregroundColor(.white)
+            
+        }
     }
 }
 
